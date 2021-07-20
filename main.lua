@@ -1,7 +1,7 @@
 
 
 local loco = game.Players.LocalPlayer.Name
-local Player = game.Players.LocalPlayer -- for fucks sake use this
+local Player = game.Players.LocalPlayer
 
 game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.All, false)
 
