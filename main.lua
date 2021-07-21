@@ -1,6 +1,5 @@
-
-
 local loco = game.Players.LocalPlayer.Name
+
 local Player = game.Players.LocalPlayer
 
 game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.All, false)
@@ -22,6 +21,7 @@ local USERNAME = game.Players.LocalPlayer.Name
 
 
 local function iterPageItems(pages)
+	
 	return coroutine.wrap(function()
 
 		local pagenum = 1
